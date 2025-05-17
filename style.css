@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');;
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+.cover{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/8-bit-graphics-pixels-scene-with-ocean-waves_23-2151120956.jpg?semt=ais_hybrid);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    h1{
+       font-size: 80px; 
+       font-family:'Sixtyfour';
+       color: #cae3ff
+    }
+     
+     p{
+      color:aliceblue;
+      display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+     font-size: 30px; 
+     }
+     .field-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(80, 22, 58, 0.983);
+    display: none;
+ }
+.field {
+    width: 60vw;
+    height: 30vw;
+    display: grid;
+    grid-template-columns: repeat(30,1fr);
+    grid-template-rows: repeat(15, 1fr);
+    gap:.5px;
+}
+.cell{
+    background-color: rgb(255, 255, 255);
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+}
+ 
+ 
+ 
+ 
+ .blue {
+    background-color: blue;
+ }
+ .red {
+    background-color: red;
+ }
+ .purple {
+    background-color: blueviolet;
+    
+ }
+ .yeloww{
+   background-color: yellow;
+ }
+ .pink{
+   background-color: palevioletred;
+ }
+ .fill {
+    color: rgb(255, 255, 255)
+ }
+  .selected{
+   border: 2px solid white;
+  }
+  .start{
+    background-color: aquamarine;
+    width: max-content;
+    font-size: 55px;
+    padding: 10px;
+  }
